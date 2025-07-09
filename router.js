@@ -5,7 +5,6 @@ import fs from "fs/promises";
 const server = express();
 server.use(express.json());
 
-server.use('/users', usersRouter);
 
 const PORT = 3000;
 
