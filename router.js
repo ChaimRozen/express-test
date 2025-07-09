@@ -23,8 +23,8 @@ server.post('/',async (req, res) => {
 }
 });
 
-export default Router;
+// export default Router;
 
-server.use('/', Router)
+// server.use('/', Router)
 
 server.listen(PORT, ()=> console.log(`listening from port: ${PORT}`));
