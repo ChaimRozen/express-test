@@ -7,8 +7,8 @@ server.use(express.json());
 
 
 const PORT = 3000;
-
-server.get('/', (req ,res) => res.send("hello"));
+const message = "מה קורה  מירי?\nאיך את מרגישה?"
+server.get('/', (req ,res) => res.send(message));
 
 server.post('/',async (req, res) => {
     try{
